@@ -53,6 +53,7 @@ header ul li a:hover,
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .main::after{
   content: '';
@@ -71,10 +72,11 @@ header ul li a:hover,
 #moon {
   mix-blend-mode: screen;
   transform: translateY(80px);
+  width: 90%;
 }
 .nouvil {
   color: #fff;
-  font-size: 5px;
+  font-size: 25px;
   text-transform: uppercase;
   transform: translateY(-140px);
 }
